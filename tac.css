@@ -1,0 +1,36 @@
+#again {
+    display: block;
+    margin: 30px auto;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+}
+
+.text_stuff {
+    font-size: 20px;
+    height: 20px;
+}
+
+.mother {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    background-color: yellow;
+    margin: auto;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 3px solid blue;
+    font-size: 120px;
+    justify-content: center;
+    align-items: center;
+}
