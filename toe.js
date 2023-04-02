@@ -34,6 +34,9 @@ for(let i = 0; i < child.length; i++) {
             }
             turn++
         }
+        if(turn === 9) {
+            winner.innerText = "Tie";
+        }
     });
 }
 
